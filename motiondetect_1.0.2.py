@@ -41,7 +41,7 @@ while(True):
 
             (x, y, w, h) = cv2.boundingRect(i)
 
-            if imgnum<5000:
+            if imgnum<10000000:
                 if count==1:
                     cv2.imwrite('./capture/capture'+str(imgnum)+'.jpg',frame2)
                     imgnum=imgnum+1
